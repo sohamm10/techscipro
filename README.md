@@ -1,3 +1,3 @@
 # techscipro
-personal website
-This is my site aout tech.
+
+This is my site about tech.
