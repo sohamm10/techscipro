@@ -1,4 +1,4 @@
-#sample{
+.sample{
 
      font-size: 2rem;
 
@@ -7,12 +7,14 @@ color: brown;
 margin: 10px 20px 20px 40px;
 padding: 2rem;
 text-align: center;
-border: 5px pink;
+border:5px solid greenyellow;
+border-style: outset;
+
 }
 
 .siteheading{
      color: cadetblue;
      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
      text-align: center;
-
+   
 }

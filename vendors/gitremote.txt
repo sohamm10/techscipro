@@ -1,0 +1,6 @@
+Instruction on How to upload  complete project to git remote 
+
+
+git add . //add all files to git 
+git commit -m "message" //including message on commit
+git push -u origin master  // push to remote on master branch
