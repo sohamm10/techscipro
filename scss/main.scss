@@ -38,13 +38,14 @@ ul{
   flex-wrap: wrap;
    li{
   padding: 1rem;
-      background: rgb(0, 73, 5);
+  background: rgb(4, 2, 105);
+   
       margin: .3rem;
       list-style: none;
       border-radius: .25rem;
       &:hover{
         
-         background: rgb(4, 2, 105);
+         background: rgb(0, 73, 5);
          border-bottom:3px solid rgb(255, 252, 47);
          border-width: 50%;
          a{

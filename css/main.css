@@ -44,14 +44,14 @@ nav ul {
 
 nav ul li {
   padding: 1rem;
-  background: #004905;
+  background: #040269;
   margin: .3rem;
   list-style: none;
   border-radius: .25rem;
 }
 
 nav ul li:hover {
-  background: #040269;
+  background: #004905;
   border-bottom: 3px solid #fffc2f;
   border-width: 50%;
 }
