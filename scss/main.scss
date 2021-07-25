@@ -115,8 +115,9 @@ h6{
    }
    ul{
       display: flex;
+      flex-wrap: wrap;
       li{
-         padding: 2rem;   
+         padding: 1rem;   
          a{
             color: rgb(182, 181, 181);
             font-family: 'Roboto Mono', monospace;
