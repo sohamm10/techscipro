@@ -71,6 +71,7 @@ nav ul li a {
 }
 
 footer {
+  border-top: 0.4rem solid #392e07;
   background: #1c2433;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -79,6 +80,18 @@ footer {
       justify-content: space-around;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
+}
+
+footer .footerrow3 ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+footer .footerrow3 ul li {
+  font-size: 1.3rem;
 }
 
 footer ul li {
@@ -95,17 +108,20 @@ footer ul li a {
 }
 
 footer h6 {
+  border-bottom: 1px solid #e4fc0c;
   padding: 1rem;
+  margin-bottom: 1rem;
   color: white;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   font-size: 1.2rem;
 }
 
 footer h6:hover {
-  border-bottom: 4px solid #e4fc0c;
+  border-bottom: 2px solid #ffbb00;
 }
 
 #copyright {
+  border-bottom: 0.4rem solid #392e07;
   background: #1f2633;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -119,8 +135,8 @@ footer h6:hover {
 
 #copyright .copyright {
   padding: 2rem;
-  color: #a9a902;
-  font-family: 'Zen Loop', cursive;
+  color: #cef8fd;
+  font-family: 'Libre Franklin', sans-serif;
 }
 
 #copyright ul {
@@ -138,5 +154,9 @@ footer h6:hover {
 #copyright ul li a {
   color: #b6b5b5;
   font-family: 'Roboto Mono', monospace;
+}
+
+#copyright ul li a:hover {
+  color: white;
 }
 /*# sourceMappingURL=main.css.map */
